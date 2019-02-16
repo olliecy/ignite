@@ -1,0 +1,100 @@
+body{
+  background-color: #f4f4f4;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+li .current{
+  color: #E67E22;
+}
+
+/* Header */
+
+header {
+  min-height: 20px;
+  border-bottom: #273746 3px solid;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #273746;
+}
+
+header .current a{
+  color: #E67E22;
+}
+
+header a:hover{
+  font-weight: bold;
+}
+
+header nav{
+  float: right;
+}
+
+header #branding{
+  text-transform: uppercase;
+  float: left;
+}
+
+
+
+header li{
+  display: inline;
+  float: left;
+  padding: 0 7px 0 7px;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+
+
+/* Section */
+
+#backimg{
+  background-image: url("https://res.cloudinary.com/dlzfmcdcl/image/upload/c_scale,w_2202/v1548522810/jiawei-chen-391837-unsplash_t9suu8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+  text-align: center;
+  margin:0;
+  padding:0;
+  min-height: 300px;
+  width: 100%;
+  background-color: #273746;
+}
+
+#brand_box{
+  color: #E67E22;
+  float: center;
+  margin-top: 60px;
+}
+
+#brand_box h1{
+  font-weight: bold;
+  color: #E67E22;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'Exo', sans-serif;
+}
+
+
+/*Section */
+
+#about {
+  background-color;
+}

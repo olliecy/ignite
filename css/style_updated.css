@@ -1,0 +1,490 @@
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Header */
+
+header {
+  min-height: 20px;
+  border-bottom: #E67E22 3px solid;
+  background-color: #273746;
+  color: white;
+}
+
+header a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: white;
+}
+
+header .current a{
+  color: #E67E22;
+}
+
+header a:hover{
+  font-weight: bold;
+}
+
+header #nav_brand{
+  text-transform: uppercase;
+  float: left;
+}
+
+header li{
+  display: inline;
+  padding: 0 7px 0 7px;
+}
+
+ul{
+  float: right;
+  margin:0;
+  padding-top: 17px;
+}
+
+
+
+
+/* Section */
+
+#backimg {
+  background-image: url("https://res.cloudinary.com/dlzfmcdcl/image/upload/v1548678891/cropped_trans_donut_sybvyg.png");
+  padding-top: 150px;
+  min-height: 400px;
+  background-position: 0 0 100px 0;
+  background-repeat: no-repeat;
+}
+
+#brand_box{
+  opacity: .7;
+  background-color: black;
+  width: 40%;
+  display: block;
+  margin: auto;
+  float: center;
+}
+
+#brand_box h1{
+  font-weight: bold;
+  color: #E67E22;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+
+
+
+/* Section */
+
+
+
+#about{
+  background-color: #273746;
+  color: white;
+  padding: 5px 0 5px 0;
+}
+
+article#who {
+  float: left;
+  width: 50%;
+  margin: auto;
+}
+
+aside#team img{
+  float: right;
+  margin-top: 35px;
+  border: #E67E22 3px solid;
+  border-radius: 5px;
+
+}
+
+.resize{
+  width: 30%;
+}
+
+
+
+/* Section */
+
+#follow{
+  background-color: #E67E22;
+  padding-bottom: 35px;
+}
+
+#follow_title{
+  text-align: center;
+  font-size: 30px;
+}
+
+#button_row{
+  text-align: center;
+  margin: auto;
+}
+
+.social_media{
+  border: none;
+  border-radius: 4px;
+  font-size: 28px;
+  margin: 0 13px 0 13px;
+  width: 55px;
+  height: 55px;
+  color: white;
+}
+
+.social_media:hover{
+  opacity: .8;
+}
+
+#facebook{
+  background-color: #4267b2;
+}
+
+#twitter{
+  background-color: #1da1f2;
+}
+
+#instagram{
+  background-color: #7232bd;
+}
+
+#social_mail{
+  background-color: #db4437;
+}
+
+
+/* Section */
+
+#info{
+  margin-bottom: 15px;
+  padding: 5px 0 5px 0;
+}
+
+article#infoarticle{
+  float: left;
+  width: 60%;
+}
+
+aside#reviews{
+  float: right;
+  width: 40%;
+}
+
+.resize1{
+  width: 50%;
+}
+
+img.resize1{
+  display: block;
+  margin-left: 23%;
+  padding: 5px;
+  border: #273746 solid 2px;
+}
+
+aside#reviews p{
+  font-size: 14px;
+}
+
+aside#reviews h2{
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+aside#reviews h1{
+  text-align: center;
+}
+
+.box{
+  width: 75%;
+  padding: 10px;
+  border: #cccccc solid 1px;
+  margin: 0 0 10px 40px;
+  background-color: #e6e6e6;
+  float: right;
+}
+
+
+/* Section */
+
+#contact{
+  background-color: #273746;
+  text-align: center;
+  color: white;
+  margin: none;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+button#button_contact{
+  height: 38px;
+  background: #E67E22;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 4%;
+}
+
+button#button_contact:hover{
+  opacity: .9;
+}
+
+
+
+/* Footer */
+
+footer{
+  background-color: #E67E22;
+  margin: 0;
+  padding: 10px 0 5px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media(max-width: 768px){
+
+  body{
+      float: none;
+      text-align: center;
+      width: 100%;
+  }
+
+  .container{
+    width: 90%;
+  }
+
+  header nav ul{
+      line-height: 1;
+      font size: 10px;
+      width: 100%;
+      padding: 15px 0 10px 0;
+  }
+
+  header #nav_brand{
+    display: none;
+  }
+
+  #brand_box{
+    width: 75%;
+  }
+
+  #backimg {
+    width: 100%;
+  }
+
+  #about{
+    padding-bottom: 25px;
+  }
+
+  article#who {
+    width: 90%;
+    float: none;
+    text-align: center;
+  }
+
+  aside#team img{
+    float: none;
+  }
+
+  .resize{
+    width: 75%;
+  }
+
+  article#infoarticle{
+    float: none;
+    width: 90%;
+    text-align: center;
+  }
+
+  article#infoarticle p, article#infoarticle h1{
+    margin-left: 30px;
+  }
+
+  .resize1{
+    width: 55%;
+  }
+
+  aside#reviews{
+    float: none;
+    width: 90%;
+    background-color: #a6a6a6;
+    padding: 10px;
+    margin: 30px 0 0 20px ;
+    border: #e67e22 solid 3px;
+  }
+
+  aside#reviews p{
+    font-size: 12px;
+  }
+
+  aside#reviews h2{
+    font-size: 15px;
+    margin: 0;
+  }
+
+  aside#reviews h1{
+    text-align: center;
+  }
+
+  .box{
+    float: none;
+    text-align: center;
+    width: 85%;
+    border-radius: 7px;
+    border: #273746 solid 1px;
+  }
+
+
+
+
+}
+
+
+
+
+
+@media(max-width: 380px){
+
+  .social_media{
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    margin: 0 5px 0 5px;
+    width: 50px;
+    height: 50px;
+    color: white;
+  }
+
+  .resize1{
+    width: 70%;
+  }
+
+  aside#reviews{
+    float: none;
+    width: 75%;
+    padding: 5px;
+    margin: 30px 0 0 30px ;
+  }
+
+  aside#reviews p{
+    font-size: 12px;
+  }
+
+  aside#reviews h2{
+    font-size: 15px;
+    margin: 0;
+  }
+
+  aside#reviews h1{
+    text-align: center;
+  }
+
+  aside#reviews{
+    float: none;
+    width: 80%;
+    border: #e67e22 solid 3px;
+    background-color: #f4f4f4;
+  }
+
+  .box{
+    float: none;
+    text-align: center;
+    width: 70%;
+    border-radius: 7px;
+    border: #273746 solid 1px;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+/*Creations Page*/
+
+
+/* Section */
+
+#creations h1 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+#port{
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.dou{
+  background-color: #e67e22;
+  margin: 40px 10px 75px 40px;
+  padding-bottom: 5px;
+  border: #273746 3px solid;
+}
+
+.dou:hover{
+  opacity: .95;
+}
+
+.pic{
+  width: 100%;
+}
+
+#connect {
+  background-color: #273746;
+  border-bottom: black 1px solid;
+  max-height: 70px;
+}
+
+#connect h1{
+  text-align: left;
+}
+
+#social_div{
+  display: inline;
+  float: right;
+}
+
+button.social_bar{
+  border: none;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+}
+
+button.social_bar:hover{
+  opacity: .9;
